@@ -74,5 +74,14 @@ public class Metodos {
 
         }
     }
+    public void cuandoAEsIgualAUno(float a, float b, float c){
+    	float p1 = -(b/2);
+    	float p2 = (b*b/4)-c;
+    	float p3 = (float) Math.sqrt(p2);
+        float positivo= p1 + p3;
+        float negativo= p1 - p3;
+    	System.out.println("Primer Raiz: "+positivo);
+    	System.out.println("Segunda raiz "+negativo);
+    }
 
 }
