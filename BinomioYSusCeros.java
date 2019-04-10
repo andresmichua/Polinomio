@@ -43,6 +43,13 @@ public class BinomioYSusCeros {
     	met.cuandoAEsIgualAUno(1, -2, -15);
     	met.cuandoAEsIgualAUno(1, -19, -88);
     	met.cuandoAEsIgualAUno(1, 7, 12);
+    	
+    	
+    	
+    	met.cuandoBesCero(2, 0, -18);
+    	met.cuandoBesCero(3, 0, -48);
+    	met.cuandoBesCero(5, 0, -55);
+    	met.cuandoBesCero(7, 0, -14);
     }
 
 }
